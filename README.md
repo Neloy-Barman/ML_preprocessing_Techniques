@@ -2,6 +2,6 @@
 Contains some preprocessing techniques that we need to implement before sending the data samples to the ML algorithms.
 
 ### Data Normalization: - 
-    1.  
+    1. Normalization of DataFrame.
 ### Feature Selection: - 
 ### Feature Extraction: - 
