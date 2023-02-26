@@ -1,1 +1,18 @@
+I took an dataset called "Turkish Music Emotion Dataset Data Set" 
+which is available at "https://archive.ics.uci.edu/ml/datasets/Turkish+Music+Emotion+Dataset"
+Now this dataset consists of columns that are of numeric datatypes except the "Class" column.
+We have to normalize the column values by placing the values in between 0 and 1. 
 
+N.B: - Whatever we do here is always column wise. 
+
+To normalze, 
+  1. I at first subtracted the mean from each instances and
+     then divide the resultant value by standard deviation.
+  2. Then I subtracted the min from the instance and then divide it by
+     difference of the max and min value of the column.
+  3. As a result, all the values are now normalized and in between 0 and 1.
+  
+ I kept the resultant dataset in "N_Music_Emotion.csv" file.
+ 
+             -------------> Hope this helps you in some way <------------- 
+             ------------------------> THANK YOU <------------------------ 
