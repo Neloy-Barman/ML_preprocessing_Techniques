@@ -4,4 +4,5 @@ Contains some preprocessing techniques that we need to implement before sending 
 ### Data Normalization: - 
     1. Normalization of DataFrame.
 ### Feature Selection: - 
+    1. Pearson Correlation.
 ### Feature Extraction: - 
