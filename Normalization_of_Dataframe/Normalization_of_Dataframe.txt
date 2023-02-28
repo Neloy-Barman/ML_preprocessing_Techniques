@@ -5,7 +5,7 @@ We have to normalize the column values by placing the values in between 0 and 1.
 
 N.B: - Whatever we do here is always column wise. 
 
-To normalze, 
+To normalize, 
   1. I at first subtracted the mean from each instances and
      then divide the resultant value by standard deviation.
   2. Then I subtracted the min from the instance and then divide it by
